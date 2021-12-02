@@ -1,7 +1,7 @@
 import sys
 
 def part1():                    # I think this goes without saying, but I wish there was the ability to use {} in python
-    f = open("input", "r")
+    f = open("input.txt", "r")
     item1 = int(f.readline().replace("\n", ""))
     counter = 0
     
@@ -17,7 +17,7 @@ def part1():                    # I think this goes without saying, but I wish t
     print(counter)
 
 def part2():
-    f = open("input", "r")
+    f = open("input.txt", "r")
     item1 = int(f.readline().replace("\n", ""))
     item2 = int(f.readline().replace("\n", ""))
     item3 = int(f.readline().replace("\n", ""))
