@@ -3,8 +3,9 @@ def readInput(fileName):
     f = open(fileName, "r")
     array = []
     while(1):
-        line = f.readline().replace("\n", "")
+        line = f.readline()
         if(line == ""):
             break
-        array.append(line)
-    return array
+        array.append(line.replace("\n", ""))
+    f.close()
+    return array.copy()
