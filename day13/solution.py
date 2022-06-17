@@ -1,5 +1,4 @@
 import sys
-import re
 sys.path.append("../")
 
 from fileRead import readInput
